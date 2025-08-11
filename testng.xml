@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="OpenWeather API Suite" verbose="1" parallel="false">
+  <listeners>
+    <listener class-name="com.api.listeners.ExtentTestNGListener"/>
+  </listeners>
+  <test name="All Tests">
+    <classes>
+      <class name="com.api.tests.AuthKeyTests"/>
+      <class name="com.api.tests.StatusCodeTests"/>
+      <class name="com.api.tests.SchemaValidationTests"/>
+      <class name="com.api.tests.ParamHandlingTests"/>
+      <class name="com.api.tests.QueryCombinationTests"/>
+      <class name="com.api.tests.PerformanceTests"/>
+      <class name="com.api.tests.DataAccuracyTests"/>
+      <class name="com.api.tests.OneCallDisabledGuardTests"/>
+    </classes>
+  </test>
+</suite>

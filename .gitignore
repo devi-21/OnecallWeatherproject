@@ -1,0 +1,10 @@
+/target/
+/test-output/
+/src/
+/.classpath
+/.gitignore
+/.project
+/README.md
+/logging.properties
+/pom.xml
+/testng.xml
