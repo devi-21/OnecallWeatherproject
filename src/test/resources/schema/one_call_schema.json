@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": [
+    "lat",
+    "lon",
+    "timezone",
+    "current"
+  ],
+  "properties": {
+    "lat": {
+      "type": "number"
+    },
+    "lon": {
+      "type": "number"
+    },
+    "timezone": {
+      "type": "string"
+    },
+    "current": {
+      "type": "object",
+      "required": [
+        "dt",
+        "temp",
+        "humidity",
+        "wind_speed"
+      ],
+      "properties": {
+        "dt": {
+          "type": "integer"
+        },
+        "temp": {
+          "type": "number"
+        },
+        "humidity": {
+          "type": "number"
+        },
+        "wind_speed": {
+          "type": "number"
+        }
+      }
+    }
+  }
+}

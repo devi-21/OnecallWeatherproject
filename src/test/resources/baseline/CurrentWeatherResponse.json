@@ -1,0 +1,14 @@
+{
+  "allowedTempRangeC": {
+    "min": -10,
+    "max": 55
+  },
+  "allowedHumidityRange": {
+    "min": 0,
+    "max": 100
+  },
+  "allowedWindSpeedRange": {
+    "min": 0,
+    "max": 60
+  }
+}
